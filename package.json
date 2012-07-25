@@ -1,0 +1,18 @@
+{
+  "author": "Gregory Sitnin <sitnin@gmail.com>",
+  "name": "skeleton-node.js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "supervisor --extensions 'node|js|jade' app.js"
+  },
+  "dependencies": {
+    "express": "3.0.0rc1",
+    "jade": "~0.26.3"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
